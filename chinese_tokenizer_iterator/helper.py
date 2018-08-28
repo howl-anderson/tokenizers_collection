@@ -15,20 +15,10 @@ def post_install_action():
     if not os.path.isdir(ltp_data_base_dir):
         raise Exception("{} must be a directory".format(ltp_data_base_dir))
 
-    file_name_object_pairs = download_extract_zip(
-        'http://ospm9rsnd.bkt.clouddn.com/model/ltp_data_v3.4.0.zip'
+    download_extract_zip(
+        'http://ospm9rsnd.bkt.clouddn.com/model/ltp_data_v3.4.0.zip',
+        ltp_data_base_dir
     )
-
-    for file_name, file_object in file_name_object_pairs:
-        file_path = os.path.join(ltp_data_base_dir, file_name)
-
-        file_dir = os.path.dirname(file_path)
-
-        if not os.path.exists(file_dir):
-            os.mkdir(file_dir)
-
-        with open(file_path, 'wb') as fd:
-            fd.write(file_object.read())
 
 
 def get_ltp_data_file():

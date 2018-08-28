@@ -6,13 +6,11 @@ import io
 import zipfile
 
 
-def download_extract_zip(url):
+def download_extract_zip(url, unzip_dir):
     """
     Download a ZIP file and extract its contents in memory
     yields (filename, file-like object) pairs
     """
     response = requests.get(url)
-    with zipfile.ZipFile(io.BytesIO(response.content)) as thezip:
-        for zipinfo in thezip.infolist():
-            with thezip.open(zipinfo) as thefile:
-                yield zipinfo.filename, thefile
+    with zipfile.ZipFile(io.BytesIO(response.content)) as zipfile_object:
+        zipfile_object.extractall(unzip_dir)
