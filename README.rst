@@ -1,5 +1,5 @@
 ==========================
-tokenizer iterator
+中文分词器集合
 ==========================
 
 
@@ -27,6 +27,30 @@ Features
 --------
 
 * TODO
+
+使用
+----
+.. code-block:: python
+
+    from tokenizers_collection.config import tokenizer_registry
+    for name, tokenizer in tokenizer_registry:
+        print("Tokenizer: {}".format(name))
+        tokenizer('input_file.txt', 'output_file.txt')
+
+安装
+----
+.. code-block:: bash
+
+    pip install tokenizers_collection
+
+更新许可文件与下载模型
+=======================
+因为其中有些模型需要更新许可文件（）或者需要下载模型文件（），因此安装后需要执行特定的命令完成操作，这里已经将所有的操作封装成了一个函数，只需要执行类似如下的指令即可
+
+.. code-block:: bash
+
+    python -m tokenizers_collection.helper
+
 
 Credits
 -------

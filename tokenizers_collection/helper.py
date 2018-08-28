@@ -27,3 +27,7 @@ def get_ltp_data_file():
             return os.path.join(root, 'cws.model')
 
     raise Exception("Not found 'cws.model' in {}".format(ltp_data_base_dir))
+
+
+if __name__ == "__main__":
+    post_install_action()
