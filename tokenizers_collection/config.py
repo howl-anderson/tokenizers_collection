@@ -1,4 +1,4 @@
-from tokenizer_iterator.tokenizers import (
+from tokenizers_collection.tokenizers import (
     tokenizer_jieba,
     tokenizer_thulac,
     tokenizer_nlpir,

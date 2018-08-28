@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `tokenizer_iterator` package."""
+"""Tests for `tokenizers_collection` package."""
 
 
 import unittest
 from click.testing import CliRunner
 
-from tokenizer_iterator import chinese_tokenizer_iterator
-from tokenizer_iterator import cli
+from tokenizers_collection import chinese_tokenizer_iterator
+from tokenizers_collection import cli
 
 
 class TestChinese_tokenzier_iterator(unittest.TestCase):
-    """Tests for `tokenizer_iterator` package."""
+    """Tests for `tokenizers_collection` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -28,7 +28,7 @@ class TestChinese_tokenzier_iterator(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'tokenizer_iterator.cli.main' in result.output
+        assert 'tokenizers_collection.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output

@@ -1,22 +1,22 @@
 ==========================
-Chinese tokenizer iterator
+tokenizer iterator
 ==========================
 
 
 .. image:: https://img.shields.io/pypi/v/chinese_tokenzier_iterator.svg
-        :target: https://pypi.python.org/pypi/chinese_tokenzier_iterator
+        :target: https://pypi.python.org/pypi/tokenzier_iterator
 
 .. image:: https://img.shields.io/travis/howl-anderson/chinese_tokenzier_iterator.svg
-        :target: https://travis-ci.org/howl-anderson/chinese_tokenzier_iterator
+        :target: https://travis-ci.org/howl-anderson/tokenzier_iterator
 
 .. image:: https://readthedocs.org/projects/chinese-tokenzier-iterator/badge/?version=latest
-        :target: https://chinese-tokenzier-iterator.readthedocs.io/en/latest/?badge=latest
+        :target: https://tokenzier-iterator.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
 
 
-A simple iterator for using a set of Chinese tokenizer
+一些中文分词器的简单封装和集合
 
 
 * Free software: MIT license

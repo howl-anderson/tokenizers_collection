@@ -5,7 +5,7 @@ import thulac
 import pynlpir
 from pyltp import Segmentor
 
-from tokenizer_iterator.helper import get_ltp_data_file
+from tokenizers_collection.helper import get_ltp_data_file
 
 pynlpir.open()
 
