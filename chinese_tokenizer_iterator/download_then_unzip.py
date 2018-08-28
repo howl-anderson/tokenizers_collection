@@ -1,4 +1,4 @@
-# copied from
+# mainly copied from
 # https://techoverflow.net/2018/01/16/downloading-reading-a-zip-file-in-memory-using-python/
 
 import requests
