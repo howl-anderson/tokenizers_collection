@@ -4,13 +4,13 @@
 
 
 .. image:: https://img.shields.io/pypi/v/chinese_tokenzier_iterator.svg
-        :target: https://pypi.python.org/pypi/tokenzier_iterator
+        :target: https://pypi.python.org/pypi/tokenizers_collection
 
 .. image:: https://img.shields.io/travis/howl-anderson/chinese_tokenzier_iterator.svg
-        :target: https://travis-ci.org/howl-anderson/tokenzier_iterator
+        :target: https://travis-ci.org/howl-anderson/tokenizers_collection
 
 .. image:: https://readthedocs.org/projects/chinese-tokenzier-iterator/badge/?version=latest
-        :target: https://tokenzier-iterator.readthedocs.io/en/latest/?badge=latest
+        :target: https://tokenizers-collection.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
