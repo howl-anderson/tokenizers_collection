@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5690f9d5-b7d2-4582-8d76-589f79644f76" name="Default Changelist" comment="" />
+    <list default="true" id="5690f9d5-b7d2-4582-8d76-589f79644f76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bash" value="2" />
-          <entry key="py" value="12" />
+          <entry key="py" value="13" />
           <entry key="pyi" value="1" />
           <entry key="sh" value="1" />
         </counts>
@@ -62,30 +65,30 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="69" />
-          <entry key="py" value="885" />
+          <entry key="py" value="947" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="954" />
+          <entry key="Python" value="1016" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="50" column="68" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="68" />
+            <state relative-caret-position="339">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -102,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="105">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -120,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -159,11 +162,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_chinese_tokenzier_iterator.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -177,15 +175,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/config.py" />
-        <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py" />
         <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/tokenizers.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/__init__.py" />
+        <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py" />
         <option value="$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py" />
       </list>
     </option>
@@ -194,6 +195,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -206,6 +208,11 @@
             <path>
               <item name="Chinese_tokenizer_iterator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chinese_tokenizer_iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chinese_tokenizer_iterator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chinese_tokenizer_iterator" type="462c0819:PsiDirectoryNode" />
+              <item name="chinese_tokenizer_iterator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +289,7 @@
     <frame x="0" y="22" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,9 +300,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" auto_hide="true" x="24" y="600" width="1419" height="213" id="Terminal" order="6" weight="0.32768363" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,26 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -420,8 +407,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="50" column="68" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="68" />
+        <state relative-caret-position="339">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1485" column="8" selection-start-line="1485" selection-start-column="8" selection-end-line="1485" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_tokenizer_iterator/download_then_unzip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

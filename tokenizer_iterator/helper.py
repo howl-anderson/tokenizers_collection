@@ -1,8 +1,8 @@
 import os
 import subprocess
 
-from chinese_tokenizer_iterator import ltp_data_base_dir
-from chinese_tokenizer_iterator.download_then_unzip import download_extract_zip
+from tokenizer_iterator import ltp_data_base_dir
+from tokenizer_iterator.download_then_unzip import download_extract_zip
 
 
 def post_install_action():

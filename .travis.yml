@@ -25,5 +25,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: howl-anderson/chinese_tokenizer_iterator
+    repo: howl-anderson/tokenizer_iterator
     python: 3.6

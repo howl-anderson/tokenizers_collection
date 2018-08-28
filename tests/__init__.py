@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-"""Unit test package for chinese_tokenizer_iterator."""
+"""Unit test package for tokenizer_iterator."""
