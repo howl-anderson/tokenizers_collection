@@ -20,7 +20,7 @@
 
 
 * Free software: MIT license
-* Documentation: https://chinese-tokenzier-iterator.readthedocs.io.
+* Documentation: https://tokenziers-collection.readthedocs.io.
 
 
 Features
