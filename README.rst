@@ -51,6 +51,11 @@ Features
 
     python -m tokenizers_collection.helper
 
+注意：
+
+* 如果遇到 ``Error: unable to fetch newest license.`` 那么可能是 Python 3 的 SSL 的问题，参考 `pynlpir update error <https://github.com/tsroten/pynlpir/issues/108>`_ 或者 `How to make Python use CA certificates from Mac OS TrustStore? <https://stackoverflow.com/questions/40684543/how-to-make-python-use-ca-certificates-from-mac-os-truststore>`_ 进行解决。
+
+* 由于需要下载的模型文件较大（600+ M），所以下载时间较长，具体情况根据当时网络情况而定，如果遇到错误，尝试重新运行命令。
 
 Credits
 -------
