@@ -13,5 +13,6 @@ deploy:
     secure: Fi7oZWrU5kCNx0XqdBn/YbdVEEhR4e0GVJSrOaceSYaVrchMEo8SrgiYop3oBZUM7qrix/iJQ7Ic7/bygaujEBZoMofYaysFdYlRE5LPUpEnb6V8Vg5LrHk2VaNZIHCbnMs5DP/Fhw2o/mMfAAazRzJy8d1fCiecK2dsveRqoEJ+rL9zozY87Dl+DwpJcAxuEm8JyYloCosAy6OqnhDLhnlgLQ9+Zf9F2NbmeFp4b+D1clAXhEnse0KZpDJgLpEpncm/TRifu/ArObhtEUXkexAo2Y5jgU2gByGKeGI7OwQQGaGhTnidDmvs2elEOmGLnMAPATsyy+o2IK6mNiVHg6n9YWgcDzi2TdhHxYT5elbwF+c9UFRqrJKT532glk2RwTDAvm/+s6yfLSHKpGSMSlcloyHM4bxCzkVLso7ASaib4Xv4+TjDc5lF02YlvMA/lFDHuqC234oV4FmdHd54amfTFbFcT7zq/+9C7XaUCoZ1eCNN2uD2RqlgZFV1bWMFh97YG6ZafQWNyQCwCAF5E1rzxGsQHVS1DH0Ql7G0EXqtnlV7zahngctobbTg+1K5T66ovcqwz9H2D3czXQNU7jeeMGtfG/IwBKtIyKmhoaQeUPn04EXWd0JBGoEvnw1Tzv4+XJyznRQKNppZeeiFShNpvcjFwX5IIdNxDb9rOz0=
   on:
     tags: true
+    branch: master
     repo: howl-anderson/tokenizers_collection
     python: 3.6
